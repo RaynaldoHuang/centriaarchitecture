@@ -1,15 +1,27 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
+import NavBar from "@/components/layout/NavigationBar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const myCustomFont = localFont({
+  src: [
+    {
+      path: "../public/fonts/Helvetica-Light.woff2",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Helvetica.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Helvetica-Bold.woff2",
+      weight: "800",
+      style: "normal",
+    },
+  ],
+  variable: "--helvetica", // Opsional, untuk Tailwind
 });
 
 export const metadata: Metadata = {
@@ -25,8 +37,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${myCustomFont.variable} ${myCustomFont.className} antialiased`}
       >
+        <NavBar />
         {children}
       </body>
     </html>
