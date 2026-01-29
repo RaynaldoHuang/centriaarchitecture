@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 import NavBar from "@/components/layout/NavigationBar";
+import FooterSection from "@/components/layout/FooterSection";
 
 const myCustomFont = localFont({
   src: [
