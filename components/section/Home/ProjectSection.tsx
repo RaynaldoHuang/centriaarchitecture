@@ -11,7 +11,7 @@ import pro3 from "@/public/images/pro3.webp";
 
 export default function ProjectSection() {
   return (
-    <section id="projects" className="pt-28 lg:pt-30 pb-12 px-5 lg:px-0">
+    <section id="projects" className="pt-16 lg:pt-30 pb-12 px-5 lg:px-0">
       {/* CONTAINER */}
       <div className="max-w-7xl mx-auto pb-8 lg:pb-10">
         <div className="flex flex-col lg:flex-row lg:justify-between gap-4 lg:gap-6">

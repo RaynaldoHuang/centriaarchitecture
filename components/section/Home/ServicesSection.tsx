@@ -9,7 +9,7 @@ export default function ServiceSection() {
   return (
     <>
       <section>
-        <div className="max-w-7xl mx-auto pt-24 lg:pt-36 pb-12 lg:pb-20 overflow-hidden px-6 lg:px-0">
+        <div className="max-w-7xl mx-auto pt-10 lg:pt-36 pb-12 lg:pb-20 overflow-hidden px-6 lg:px-0">
           
           {/* Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-4">

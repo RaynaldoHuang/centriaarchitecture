@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function AboutUs() {
   return (
     <section id="aboutus" className="h-full">
-      <div className="mx-auto max-w-7xl pt-30 lg:pt-36 pb-16 lg:pb-20 h-full flex flex-col justify-between px-6 lg:px-0">
+      <div className="mx-auto max-w-7xl pt-20 lg:pt-36 pb-16 lg:pb-20 h-full flex flex-col justify-between px-6 lg:px-0">
         {/* Top Content */}
         <div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0">

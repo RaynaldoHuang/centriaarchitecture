@@ -11,19 +11,19 @@ export default function Home() {
         id="scroll-container"
         className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth"
       >
-        <div className="lg:h-screen snap-start">
+        <div className="lg:h-screen lg:snap-start">
           <HeroSection />
         </div>
-        <div className="lg:h-screen snap-start">
+        <div className="lg:h-screen lg:snap-start">
           <AboutUs />
         </div>
-        <div className="lg:h-screen snap-start">
+        <div className="lg:h-screen lg:snap-start">
           <ServiceSection />
         </div>
-        <div className="snap-start">
+        <div className="lg:snap-start">
           <ProjectSection />
         </div>
-         <div className="lg:h-screen snap-start">
+         <div className="lg:h-screen lg:snap-start">
           <FooterSection />
         </div>
       </div>
