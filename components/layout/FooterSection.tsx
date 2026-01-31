@@ -38,7 +38,7 @@ export default function FooterSection() {
         </div>
 
         {/* Big Background Text */}
-        <div className="relative w-full flex justify-center pt-16 lg:pt-0 pb-8 lg:pb-10">
+        <div className="relative w-full flex justify-center pt-16 lg:pt-0 pb-24 lg:pb-10">
           <h1 className="text-[20vw] lg:text-[22vw] font-light leading-none tracking-tight text-white/90 select-none">
             CENTRIA
           </h1>
